@@ -1,0 +1,52 @@
+{% extends "recipes/base.html" %}
+
+{% block content %}
+<div class="container">
+  <div class="profile-header">
+    <h2>User Profile</h2>
+    <hr>
+    <div class="profile-info">
+      <h3>{{ user.username }}</h3>
+      <p>Email: {{ user.email }}</p>
+    </div>
+  </div>
+  
+  <div class="saved-recipes">
+    <h4>Saved Recipes:</h4>
+    <ul>
+      {% for recipe in user.profile.saved_recipes.all %}
+        <li>{{ recipe.title }}</li>
+      {% empty %}
+        <li>No saved recipes yet.</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endblock %}
+
+<style>
+  .profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .saved-recipes {
+    margin-top: 30px;
+  }
+  
+  .saved-recipes ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .saved-recipes ul li {
+    margin-bottom: 5px;
+  }
+</style>

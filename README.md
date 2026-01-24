@@ -25,6 +25,4 @@ It was also part of the learning process of the BTU's project "Coding School for
 - During the project I sometimes used ChatGPT – for understanding errors and getting suggestions. 
 
 
-
 ChatGPT – for understanding errors and getting suggestions
-

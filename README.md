@@ -1,42 +1,30 @@
-# Recipe Manager API
+# Recipe Manager API 🍕🍲🥧🍨
 
-## 📌 Project Description
-Recipe Manager is a Django backend project that allows users to manage recipes.  
-Users can create their own recipes, view recipes from others, update them, and delete them.  
-This project helps me practice backend development, CRUD operations, and Django framework.
+## Project Description
+Recipe Manager is a backend project build with Django Framework. 
+This project simply allows users to manage recipes, create their own recipes or view recipes from others, update them and delete them. 
+
+✨This is one of my first backend projects. I created it to learn the working practices of backend systems and better understand CRUD operations. 
+It was also part of the learning process of the BTU's project "Coding School for 15000 Women", where I created this project independently.
 
 ---
-
-## ⚙️ Technologies Used
+## Technologies that i Used
 - Python  
-- Django  
-- SQLite (Django default database)  
+- Django framework  
+- SQLite  
 - Git & GitHub
-
 ---
-
-## 🚀 Features
-- Create new recipes  
+## Features 
 - View all recipes  
-- Update existing recipes  
+- Create new recipes
+- edit existing recipes  
 - Delete recipes  
 - Admin panel for managing data
-
 ---
+## AI Tools 🐱‍👤
+- During the project I sometimes used ChatGPT – for understanding errors and getting suggestions. 
 
-## 🤖 AI Usage
-- **ChatGPT** – for coding suggestions, debugging, and documentation  
-- **GitHub Copilot** – for code completion and refactoring  
----
 
-## 🔮 Future Improvements
-- User authentication and authorization  
-- Recipe categories and tags  
-- Image upload for recipes  
-- API documentation using Swagger / OpenAPI  
-- Frontend integration (React, Vue, or HTML templates)
 
----
+ChatGPT – for understanding errors and getting suggestions
 
-## 👩‍💻 Author
-**Lizi Mskhvilidze** – Junior Backend Developer
